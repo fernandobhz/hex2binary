@@ -1,5 +1,5 @@
 {
-  "name": "hex2binary",
+  "name": "hex-string-to-binary",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

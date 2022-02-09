@@ -11,7 +11,7 @@ const die = (...args) => {
 const [nodePath, scriptPath, inputFilePath, outputFilePath] = process.argv;
 
 if (!inputFilePath || !outputFilePath) {
-  die('Usage: npx hex2binary <input-file> <output-file>');
+  die('Usage: npx hex-string-to-binary <input-file> <output-file>');
 }
 
 const inputFileContent = await fs.readFile(inputFilePath, 'utf8');
